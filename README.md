@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, create a new folder `config` in the root
+
+Second, add Google Firebase setup code to `firebase.js` in `config`
+
+Only then, run the development server, else code won't build:
 
 ```bash
 npm run dev
