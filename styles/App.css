@@ -1,0 +1,52 @@
+body {
+  /* background-color: #121212; */
+  color: white;
+}
+.header {
+  padding: 0 20px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  object-fit: contain;
+}
+.post {
+  margin-bottom: 10px;
+}
+.post__header {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.post__header__img {
+  margin-right: 10px;
+}
+.post__header__username {
+  margin: 0;
+}
+.post__image {
+  object-fit: contain;
+  width: 100vw;
+  max-height: 500px;
+}
+.post__footer {
+  padding: 0 20px;
+}
+.post__footer__username {
+  margin-right: 5px;
+}
+.post__footer__caption {
+  font-weight: normal;
+}
+.post__footer__actions {
+  display: flex;
+  align-items: center;
+}
+.post__footer__actions__img {
+  margin-right: 10px;
+}
+.post__footer__actions__input {
+  color: white !important;
+  margin-right: 10px;
+}

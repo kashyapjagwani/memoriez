@@ -1,0 +1,49 @@
+.post {
+  margin-bottom: 10px;
+  position: relative;
+  top: 65px;
+}
+.post__header {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+.post__header__img {
+  margin-right: 10px;
+}
+.post__header__username {
+  margin: 0;
+}
+.post__header__location {
+  margin: 0;
+  font-weight: 300;
+}
+.post__image {
+  width: 100vw;
+  text-align: center;
+}
+.post__footer {
+  padding: 0 15px;
+}
+.post__footer__username {
+  margin-top: 10px;
+}
+.post__footer__caption {
+  font-weight: normal;
+}
+.post__footer__actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.post__footer__actions__img {
+  margin-right: 10px;
+}
+.post__footer__actions__input {
+  color: white !important;
+  margin-right: 10px;
+}
+.post__footer__date {
+  margin-top: 5px;
+  color: #c5c5c5;
+}

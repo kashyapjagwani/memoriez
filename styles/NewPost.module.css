@@ -1,0 +1,21 @@
+.newpost_container {
+  background-color: #121212;
+  height: 100%;
+}
+.newpost_container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+}
+.newpost_container__image {
+  text-align: center;
+}
+.newpost_container__caption {
+  margin: 10px 20px;
+}
+.newpost_container__caption__input {
+  color: white;
+  margin-bottom: 10px;
+}

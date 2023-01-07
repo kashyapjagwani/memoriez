@@ -1,0 +1,23 @@
+.login {
+  text-align: center;
+  padding: 50px;
+}
+.login__input {
+  color: white !important;
+  height: 60px;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+.login__button {
+  margin-top: 20px;
+}
+.login__signup {
+  margin-top: 20px;
+  color: #c5c5c5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__signup__button {
+  margin-left: 5px;
+}

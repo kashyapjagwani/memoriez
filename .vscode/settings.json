@@ -1,0 +1,22 @@
+{
+  "sqltools.connections": [
+    {
+      "authenticator": "SNOWFLAKE",
+      "ocspOptions": {
+        "ocspFailOpen": true
+      },
+      "snowflakeOptions": {
+        "clientSessionKeepAlive": true,
+        "clientSessionKeepAliveHeartbeatFrequency": 3600
+      },
+      "previewLimit": 50,
+      "driver": "Snowflake",
+      "name": "IMT577_Source_DW",
+      "account": "RD87520.east-us-2.azure",
+      "password": "gopPam-huhqyz-xejza0",
+      "username": "kashyap",
+      "database": "IMT577_DW_Kashyap_Jagwani",
+      "warehouse": "IMT577_WH"
+    }
+  ]
+}

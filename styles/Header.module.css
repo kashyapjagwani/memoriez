@@ -1,0 +1,19 @@
+.header {
+  padding: 0 10px 10px 10px;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  object-fit: contain;
+}
+.header__actions__input {
+  display: none;
+}
+/* .header__group_drawers {
+  color: red;
+} */

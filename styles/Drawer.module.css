@@ -1,0 +1,30 @@
+.drawer_container {
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+}
+.drawer {
+  padding: 10px 15px 0 15px;
+}
+.drawer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.drawer__header__back_username {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.drawer__header__back_username__username {
+  margin: 0;
+}
+.drawer__groups {
+  margin: 10px 0 0 5px;
+}
+.drawer__groups__group {
+  padding-left: 0;
+}
+.drawer__groups__group_name {
+  margin: 0 0 0 4px;
+}

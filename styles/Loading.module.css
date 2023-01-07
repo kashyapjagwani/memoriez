@@ -1,0 +1,15 @@
+.loading {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.loading__content {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+}
+.loading__content__loader {
+  width: 100%;
+  text-align: center;
+}

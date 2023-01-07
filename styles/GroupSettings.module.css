@@ -1,0 +1,35 @@
+.group_settings {
+  background-color: #121211;
+}
+.group_settings__top_bar {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.group_settings__top_bar__bar {
+  width: 40px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #686868;
+}
+.group_settings__profile {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+.group_settings__change_name {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  color: #0971f1;
+}
+.group_settings__chat_settings {
+  color: white;
+  padding: 0px 16px;
+}
+.group_settings__image_input {
+  display: none;
+}
+.group_settings__members__username {
+  margin: 0 4px;
+}

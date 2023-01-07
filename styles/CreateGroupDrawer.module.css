@@ -1,0 +1,43 @@
+.create_group_drawer {
+  padding: 10px 15px 0 15px;
+}
+.create_group_drawer__input {
+  display: none;
+}
+.create_group_drawer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.create_group_drawer__header__back_username {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.create_group_drawer__header__back_username__username {
+  margin: 0;
+}
+.create_group_drawer__groups {
+  margin: 10px 0 0 5px;
+}
+.create_group_drawer__groups__group {
+  padding-left: 0;
+}
+.create_group_drawer__groups__group_name {
+  margin: 0 0 0 4px;
+}
+.create_group_drawer__form__creds {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.create_group_drawer__form__creds__input {
+  margin-left: 8px;
+  color: white;
+}
+.create_group_drawer__form__search {
+  color: white;
+}
+.create_group_drawer__form__user {
+  padding-left: 0 !important;
+}
