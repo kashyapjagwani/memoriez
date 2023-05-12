@@ -29,9 +29,9 @@ export default function Home() {
   const [uploading, setUploading] = useState(false);
   const [user, setUser] = useState(null);
   const [signup, setSignUp] = useState(false);
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState("test");
   const [password, setPassword] = useState({
-    value: "",
+    value: "test123",
     showPassword: false,
   });
   const [confirmPassword, setConfirmPassword] = useState("");
